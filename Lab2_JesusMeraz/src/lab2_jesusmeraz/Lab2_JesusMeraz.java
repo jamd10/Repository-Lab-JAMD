@@ -93,7 +93,7 @@ public class Lab2_JesusMeraz {
                                 System.out.println("Por favor ingrese su nivel del 1 al 10, intente de nuevo:");
                                 System.out.println("Ingrese su nivel [1-10]: ");
                                 modNivel = leer.nextInt();
-                            }
+                            }// fin while
                             ((AgregarDetectives) agg_detectives.get(p)).setNivel(modNivel);
                         }
                     }
