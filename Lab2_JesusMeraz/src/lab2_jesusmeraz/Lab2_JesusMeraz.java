@@ -50,7 +50,7 @@ public class Lab2_JesusMeraz {
                         System.out.println("Por favor ingrese su nivel del 1 al 10, intente de nuevo:");
                         System.out.println("Ingrese su nivel [1-10]: ");
                         nivel = leer.nextInt();
-                    }
+                    }// fin while
                     agg_detectives.add(new AgregarDetectives(name, edad, nacionalidad, a_laborales, nivel));
                     break;
                 case 2:
