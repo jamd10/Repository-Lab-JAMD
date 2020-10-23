@@ -62,7 +62,7 @@ public class Lab2_JesusMeraz {
                         System.out.println("Detective eliminado exitosamente");
                     } else {
                         System.out.println("Fuera de rango, la posicion que eligio es incorrecta");
-                    }
+                    }// fin if
                     break;
                 case 3:
                     System.out.println("Modificar Detective");
