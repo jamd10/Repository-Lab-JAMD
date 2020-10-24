@@ -123,7 +123,7 @@ public class Lab2_JesusMeraz {
                         System.out.println("Opciones no validad, solo 1, 2 o 3");
                         System.out.println("Ingrese opcion nuevamente: ");
                         pos = leer.nextInt();
-                    }
+                    }// fin while
                     switch (pos) {
                         case 1:
                             tipo = "Homicidio";
