@@ -102,7 +102,7 @@ public class Lab2_JesusMeraz {
                     System.out.println("Listar detectives");
                     for (Object t : agg_detectives) {
                         System.out.println(agg_detectives.indexOf(t) + " = " + t);
-                    }
+                    }// fin for
                     break;
                 case 5:
                     System.out.println("Registrar casos");
