@@ -161,10 +161,10 @@ public class Lab2_JesusMeraz {
                     String estado = "";
                     switch (pp) {
                         case 1:
-                            tipo = "Resuelto";
+                            estado = "Resuelto";
                             break;
                         case 2:
-                            tipo = "En proceso";
+                            estado = "En proceso";
                             break;
                         default:
                             System.out.println("Opciones no validad, solo 1 y/o 2");
@@ -275,7 +275,6 @@ public class Lab2_JesusMeraz {
                                         System.out.println("Ingrese opcion nuevamente: ");
                                         pos = leer.nextInt();
                                     }
-
                                     switch (pp1) {
                                         case 1:
                                             modestado = "Resuelto";
